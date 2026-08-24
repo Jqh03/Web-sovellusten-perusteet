@@ -1,0 +1,15 @@
+{
+  "name": "w1-kotitehtava",
+  "version": "1.0.0",
+  "private": true,
+  "description": "W1 kotitehtava - etusivu-HTML. npm test validoi index.html:n HTML-validate:lla.",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "html-validate index.html"    
+  },
+  "devDependencies": {
+    "html-validate": "^9.0.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-recommended": "^14.0.0"
+  }
+}
